@@ -6,6 +6,7 @@ art_make(LIB_LIBRARIES
            canvas
            cetlib_except
            ${ROOT_CORE}
+           ${ART_UTILITIES}
          MODULE_LIBRARIES
            larreco_MCComp
            larcorealg_Geometry

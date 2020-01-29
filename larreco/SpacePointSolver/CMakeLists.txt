@@ -9,6 +9,7 @@ art_make(BASENAME_ONLY
            ${ROOT_PHYSICS}
            canvas
            cetlib_except
+           ${ART_UTILITIES}
          MODULE_LIBRARIES
            larcorealg_Geometry
            lardataobj_RecoBase

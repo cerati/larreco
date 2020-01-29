@@ -8,6 +8,7 @@ art_make(LIB_LIBRARIES
            ${MF_MESSAGELOGGER}
            cetlib_except
            ${ROOT_MINUIT2}
+           ${ART_UTILITIES}
         )
 
 install_headers()
