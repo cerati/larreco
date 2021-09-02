@@ -46,7 +46,7 @@ find_package(art_root_io)
 find_package(messagefacility)
 find_package( PostgreSQL )
 find_package( RangeV3 )
-find_package( ROOT))
+find_package( ROOT )
 
 # macros for dictionary and simple_plugin
 include(ArtDictionary)
