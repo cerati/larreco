@@ -5,10 +5,11 @@ art_make(LIB_LIBRARIES
            larcorealg_Geometry
            lardataobj_AnalysisBase
            art::Framework_Services_Registry
-           ${ART_UTILITIES}
-           ${CANVAS}
-           ${CETLIB_EXCEPT}
            fhiclcpp::fhiclcpp
+           cetlib::cetlib
+           cetlib_except::cetlib_except
+           art::Utilities
+           fhiclcpp::fhiclcpp fhiclcpp::types
            messagefacility::MF_MessageLogger
            ROOT::Core
            ROOT::Physics

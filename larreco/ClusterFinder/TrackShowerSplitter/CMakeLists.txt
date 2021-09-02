@@ -18,10 +18,8 @@ simple_plugin(TrackShowerHits   "module"
 			art::Utilities
 			canvas::canvas
 			messagefacility::MF_MessageLogger
-
 			cetlib::cetlib cetlib_except
-			${ROOT_BASIC_LIB_LIST}
-
+		        ROOT::Core ROOT::Hist
 )
 
 install_headers()

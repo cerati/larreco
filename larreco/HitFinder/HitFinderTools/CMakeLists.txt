@@ -12,19 +12,20 @@ set( hitfinder_tool_lib_list
                         art::Framework_Services_Registry
                         art::Persistency_Common
                         art::Persistency_Provenance
-                        ${ART_FRAMEWORK_SERVICES_BASIC}
                         art_root_io::tfile_support ROOT::Core
-            ${ART_FRAMEWORK_SERVICES_OPTIONAL_RANDOMNUMBERGENERATOR_SERVICE}
                         art_root_io::TFileService_service
-                        ${ART_FRAMEWORK_SERVICES_SYSTEM_FILECATALOGMETADATA_SERVICE}
                         art::Utilities
                         canvas::canvas
                         messagefacility::MF_MessageLogger
-
                         fhiclcpp::fhiclcpp
                         cetlib::cetlib
                         Boost::filesystem
-                        ${ROOT_BASIC_LIB_LIST}
+                        art::Framework_Services_Registry art::Framework_Services_FileServiceInterfaces
+                        art_root_io::tfile_support ROOT::Core
+                        art::Framework_Services_System_FloatingPointControl_service
+                        art_root_io::TFileService_service
+                        art::Framework_Services_System_FileCatalogMetadata_service
+                        CLHEP::CHLEP 
     )
 
 include(FindOpenMP)

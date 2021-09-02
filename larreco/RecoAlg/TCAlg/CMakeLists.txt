@@ -9,13 +9,12 @@ art_make(LIB_LIBRARIES
            larreco_Calorimetry
            art::Framework_Principal
            art::Framework_Services_Registry
-           ${ART_PERSISTENCY_PROVENANCE}
            art_root_io::TFileService_service
            art_root_io::tfile_support
-           ${ART_UTILITIES}
-           ${CANVAS}
-           ${CETLIB_EXCEPT}
+           art::Persistency_Provenance
+           art::Utilities
            cetlib::cetlib
+           cetlib_except::cetlib_excpet
            ROOT::Core
            ROOT::GenVector
            ROOT::Gpad
