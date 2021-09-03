@@ -14,7 +14,7 @@ art_make(LIB_LIBRARIES
            art::Persistency_Provenance
            art::Utilities
            cetlib::cetlib
-           cetlib_except::cetlib_excpet
+           cetlib_except::cetlib_except
            ROOT::Core
            ROOT::GenVector
            ROOT::Gpad
