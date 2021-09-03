@@ -48,7 +48,7 @@ find_package(cetlib_except)
 find_package( PostgreSQL )
 find_package( RangeV3 )
 find_package( ROOT )
-
+find_package( CLHEP )
 # macros for dictionary and simple_plugin
 include(ArtDictionary)
 include(ArtMake)
