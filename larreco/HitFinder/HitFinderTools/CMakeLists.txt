@@ -25,7 +25,7 @@ set( hitfinder_tool_lib_list
                         art::Framework_Services_System_FloatingPointControl_service
                         art_root_io::TFileService_service
                         art::Framework_Services_System_FileCatalogMetadata_service
-                        CLHEP::CHLEP 
+                        CLHEP::Random
     )
 
 include(FindOpenMP)
