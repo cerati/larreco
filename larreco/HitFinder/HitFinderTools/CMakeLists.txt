@@ -2,11 +2,11 @@ cet_enable_asserts()
 
 set( hitfinder_tool_lib_list
                         larreco_RecoAlg
-                        larcorealg_Geometry
-                        lardataobj_RecoBase
-                        larcore_Geometry_Geometry_service
-                        lardata_Utilities
-                        nurandom_RandomUtils_NuRandomService_service
+                        larcorealg::Geometry
+                        lardataobj::RecoBase
+                        larcore::Geometry_Geometry_service
+                        lardata::Utilities
+                        nurandom::RandomUtils_NuRandomService_service
                         art::Framework_Core
                         art::Framework_Principal
                         art::Framework_Services_Registry

@@ -3,7 +3,7 @@ add_subdirectory(job)
 
 art_make(MODULE_LIBRARIES
           larreco_RecoAlg
-          lardataobj_RecoBase
+          lardataobj::RecoBase
           art::Framework_Services_Registry
           ROOT::Core
           ROOT::Physics

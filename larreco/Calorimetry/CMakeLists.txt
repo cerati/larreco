@@ -1,9 +1,9 @@
 art_make(LIB_LIBRARIES
-           lardataalg_DetectorInfo
-           lardataobj_RecoBase
-           lardata_ArtDataHelper
-           larcorealg_Geometry
-           lardataobj_AnalysisBase
+           lardataalg::DetectorInfo
+           lardataobj::RecoBase
+           lardata::ArtDataHelper
+           larcorealg::Geometry
+           lardataobj::AnalysisBase
            art::Framework_Services_Registry
            fhiclcpp::fhiclcpp
            cetlib::cetlib
@@ -14,7 +14,7 @@ art_make(LIB_LIBRARIES
            ROOT::Core
            ROOT::Physics
          MODULE_LIBRARIES
-           larcorealg_Geometry
+           larcorealg::Geometry
            larreco_Calorimetry
            ROOT::Core
            ROOT::Hist

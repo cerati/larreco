@@ -1,11 +1,11 @@
 art_make(EXCLUDE FeatureVertexFinder_module.cc
          MODULE_LIBRARIES
-           larsim_MCCheater_ParticleInventoryService_service
-           lardataobj_RecoBase
-           larcorealg_Geometry
+           larsim::MCCheater_ParticleInventoryService_service
+           lardataobj::RecoBase
+           larcorealg::Geometry
            larreco_RecoAlg
-           nusimdata_SimulationBase
-           lardata_RecoObjects
+           nusimdata::SimulationBase
+           lardata::RecoObjects
            art::Framework_Services_Registry
            art_root_io::TFileService_service
            art_root_io::tfile_support
@@ -20,9 +20,9 @@ simple_plugin(FeatureVertexFinder "module"
                 art::Framework_Services_Registry
                 ROOT::Core
                 ROOT::Hist
-                larcorealg_Geometry
-                lardataalg_DetectorInfo
-                lardataobj_RecoBase
+                larcorealg::Geometry
+                lardataalg::DetectorInfo
+                lardataobj::RecoBase
               )
 
 install_fhicl()

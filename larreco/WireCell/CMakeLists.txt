@@ -1,8 +1,8 @@
 art_make(MODULE_LIBRARIES
-           larcorealg_Geometry
-           lardataobj_RawData
-           lardataobj_RecoBase
-           nusimdata_SimulationBase
+           larcorealg::Geometry
+           lardataobj::RawData
+           lardataobj::RecoBase
+           nusimdata::SimulationBase
            art::Framework_Services_Registry
            ROOT::Core
            ROOT::RIO

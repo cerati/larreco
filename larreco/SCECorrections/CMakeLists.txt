@@ -1,7 +1,7 @@
 art_make(MODULE_LIBRARIES
-  lardataalg_DetectorInfo
-  larcorealg_Geometry
-  lardataobj_RecoBase
+  lardataalg::DetectorInfo
+  larcorealg::Geometry
+  lardataobj::RecoBase
   art::Framework_Services_Registry
   ROOT::Core
   ROOT::Physics

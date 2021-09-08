@@ -2,18 +2,18 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 add_subdirectory(HitReaders)
 
 art_make(LIB_LIBRARIES
-           larcorealg_Geometry
-           lardataalg_DetectorInfo
+           larcorealg::Geometry
+           lardataalg::DetectorInfo
            art::Framework_Services_Registry
            art::Utilities
            ROOT::Core
            ROOT::Physics
          MODULE_LIBRARIES
-           larcorealg_Geometry
-           lardataobj_RecoBase
-           larsim_MCCheater_BackTrackerService_service
-           lardata_ArtDataHelper
-           larreco_SpacePointSolver
+           larcorealg::Geometry
+           lardataobj::RecoBase
+           larsim::MCCheater_BackTrackerService_service
+           lardata::ArtDataHelper
+           larreco::SpacePointSolver
            art::Framework_Services_Registry
            ROOT::Core
            ROOT::Hist

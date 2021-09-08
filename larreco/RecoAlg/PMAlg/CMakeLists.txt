@@ -1,6 +1,6 @@
 art_make(LIB_LIBRARIES
-           larcorealg_Geometry
-           lardataalg_DetectorInfo
+           larcorealg::Geometry
+           lardataalg::DetectorInfo
            art::Framework_Services_Registry
            art::Utilities
            messagefacility::MF_MessageLogger

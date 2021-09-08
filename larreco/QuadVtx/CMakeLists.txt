@@ -4,12 +4,12 @@ art_make(LIB_LIBRARIES
            ROOT::Core
            ROOT::Hist
          MODULE_LIBRARIES
-           larcorealg_Geometry
-           lardataalg_DetectorInfo
-           lardataobj_RecoBase
+           larcorealg::Geometry
+           lardataalg::DetectorInfo
+           lardataobj::RecoBase
            larreco_QuadVtx
-           nusimdata_SimulationBase
-           lardata_ArtDataHelper
+           nusimdata::SimulationBase
+           lardata::ArtDataHelper
            art_root_io::TFileService_service
            art_root_io::tfile_support
            art::Framework_Services_Registry

@@ -1,5 +1,5 @@
 art_make(LIB_LIBRARIES
-           lardata_Utilities
+           lardata::Utilities
            ${ROOT_LIBRARIES}
         )
 

@@ -1,9 +1,9 @@
 add_subdirectory(HitFinderTools)
 
 art_make(LIB_LIBRARIES
-           lardataobj_RawData
-           lardataobj_RecoBase
-           larcorealg_Geometry
+           lardataobj::RawData
+           lardataobj::RecoBase
+           larcorealg::Geometry
            messagefacility::MF_MessageLogger
            fhiclcpp::fhiclcpp
            cetlib_except::cetlib_except
@@ -11,11 +11,11 @@ art_make(LIB_LIBRARIES
            art::Utilities
          MODULE_LIBRARIES
            larreco_HitFinder
-           larsim_MCCheater_BackTrackerService_service
+           larsim::MCCheater_BackTrackerService_service
            larreco_RecoAlg
-           lardataobj_RecoBase
-           larcorealg_Geometry
-           lardata_ArtDataHelper
+           lardataobj::RecoBase
+           larcorealg::Geometry
+           lardata::ArtDataHelper
            art::Framework_Services_Registry
            art_root_io::tfile_support
            ROOT::Core

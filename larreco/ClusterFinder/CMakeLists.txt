@@ -1,16 +1,16 @@
 art_make(LIB_LIBRARIES
-           lardataobj_RecoBase
+           lardataobj::RecoBase
          MODULE_LIBRARIES
            larreco_Calorimetry
            larreco_RecoAlg_Cluster3DAlgs
            larreco_RecoAlg_TCAlg
            larreco_RecoAlg
            larreco_ClusterFinder
-           larsim_MCCheater_ParticleInventoryService_service
-           lardataobj_AnalysisBase
-           lardataobj_RecoBase
-           nurandom_RandomUtils_NuRandomService_service
-           nusimdata_SimulationBase
+           larsim::MCCheater_ParticleInventoryService_service
+           lardataobj::AnalysisBase
+           lardataobj::RecoBase
+           nurandom::RandomUtils_NuRandomService_service
+           nusimdata::SimulationBase
            art::Framework_Services_Registry
            art_root_io::tfile_support
            ROOT::Core

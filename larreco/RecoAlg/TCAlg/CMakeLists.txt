@@ -1,11 +1,11 @@
 art_make(LIB_LIBRARIES
-           larsim_MCCheater_BackTrackerService_service
-           larsim_MCCheater_ParticleInventoryService_service
-           nug4_ParticleNavigation
-           nusimdata_SimulationBase
-           lardata_RecoObjects
-           lardataalg_DetectorInfo
-           larcorealg_Geometry
+           larsim::MCCheater_BackTrackerService_service
+           larsim::MCCheater_ParticleInventoryService_service
+           nug4::ParticleNavigation
+           nusimdata::SimulationBase
+           lardata::RecoObjects
+           lardataalg::DetectorInfo
+           larcorealg::Geometry
            larreco_Calorimetry
            art::Framework_Principal
            art::Framework_Services_Registry

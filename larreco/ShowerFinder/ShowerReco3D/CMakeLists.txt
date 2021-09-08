@@ -1,7 +1,7 @@
 add_subdirectory(job)
 
 art_make(LIB_LIBRARIES
-           lardata_Utilities
+           lardata::Utilities
            larreco_Calorimetry
            larreco_RecoAlg_CMTool_CMToolBase
            larreco_RecoAlg_CMTool_CMTAlgPriority

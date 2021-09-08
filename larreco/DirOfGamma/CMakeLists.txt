@@ -1,5 +1,5 @@
 art_make(LIB_LIBRARIES
-           larcorealg_Geometry
+           larcorealg::Geometry
            larreco_RecoAlg_PMAlg
            art::Framework_Services_Registry
            ROOT::Core

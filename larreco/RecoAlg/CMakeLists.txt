@@ -1,7 +1,7 @@
 
 art_make(LIB_LIBRARIES
-           lardataalg_DetectorInfo
-           larcorealg_Geometry
+           lardataalg::DetectorInfo
+           larcorealg::Geometry
            larreco_RecoAlg_TCAlg
            larreco_RecoAlg_PMAlg
            larreco_RecoAlg_ClusterRecoUtil

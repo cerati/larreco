@@ -1,13 +1,13 @@
 add_subdirectory(Segmentation2D)
 
 simple_plugin(TrackShowerHits   "module"
-			lardataobj_RawData
-		 	lardataobj_RecoBase
+			lardataobj::RawData
+		 	lardataobj::RecoBase
 			larreco_RecoAlg
 			larreco_ClusterFinder_TrackShowerSplitter_Segmentation2D
-		 	larcorealg_Geometry
-			larcore_Geometry_Geometry_service
-			lardata_Utilities
+		 	larcorealg::Geometry
+			larcore::Geometry_Geometry_service
+			lardata::Utilities
                art::Framework_Core
 			art::Framework_Principal
 			art::Framework_Services_Registry

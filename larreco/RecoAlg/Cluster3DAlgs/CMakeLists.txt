@@ -5,11 +5,11 @@ add_subdirectory(Voronoi)
 add_subdirectory(PathFinding)
 
 art_make(LIB_LIBRARIES
-           lardataalg_DetectorInfo
-           lardataobj_RecoBase
-           larcorealg_Geometry
-           lardata_ArtDataHelper
-           lardata_RecoObjects
+           lardataalg::DetectorInfo
+           lardataobj::RecoBase
+           larcorealg::Geometry
+           lardata::ArtDataHelper
+           lardata::RecoObjects
            art::Framework_Core
            art::Framework_Principal
            art::Framework_Services_Registry
