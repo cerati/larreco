@@ -48,6 +48,7 @@ find_package(cetlib_except)
 find_package( PostgreSQL )
 find_package( RangeV3 )
 find_package( ROOT )
+find_package( Geant4 )
 find_package( CLHEP COMPONENTS Random REQUIRED)
 # macros for dictionary and simple_plugin
 include(ArtDictionary)
