@@ -1,5 +1,5 @@
 art_make(LIB_LIBRARIES
-           larreco_RecoAlg_CMTool_CMToolBase
+           larreco::RecoAlg_CMTool_CMToolBase
            larcorealg::Geometry
            art::Framework_Services_Registry
            art::Utilities

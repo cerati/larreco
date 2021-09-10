@@ -1,11 +1,11 @@
 art_make(LIB_LIBRARIES
            lardataobj::RecoBase
          MODULE_LIBRARIES
-           larreco_Calorimetry
-           larreco_RecoAlg_Cluster3DAlgs
-           larreco_RecoAlg_TCAlg
-           larreco_RecoAlg
-           larreco_ClusterFinder
+           larreco::Calorimetry
+           larreco::RecoAlg_Cluster3DAlgs
+           larreco::RecoAlg_TCAlg
+           larreco::RecoAlg
+           larreco::ClusterFinder
            larsim::MCCheater_ParticleInventoryService_service
            lardataobj::AnalysisBase
            lardataobj::RecoBase

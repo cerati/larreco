@@ -1,6 +1,6 @@
 art_make(LIB_LIBRARIES
            larcorealg::Geometry
-           larreco_Calorimetry
+           larreco::Calorimetry
            art::Framework_Services_Registry
            ROOT::Core
            canvas::canvas

@@ -6,14 +6,14 @@ art_make(EXCLUDE
            DumpTracks_module.cc
            KalmanFilterFitTrackMaker_tool.cc
          MODULE_LIBRARIES
-           larreco_RecoAlg
+           larreco::RecoAlg
            nug4::MagneticFieldServices_MagneticFieldServiceStandard_service
            ROOT::Core
            messagefacility::MF_MessageLogger
          )
 
 simple_plugin(Track3DKalman "module"
-                larreco_Genfit
+                larreco::Genfit
                 lardataobj::RecoBase
                 larcorealg::Geometry
                 nurandom::RandomUtils_NuRandomService_service
@@ -29,7 +29,7 @@ simple_plugin(Track3DKalman "module"
               )
 
 simple_plugin(Track3DKalmanSPS "module"
-                larreco_Genfit
+                larreco::Genfit
                 lardataobj::RecoBase
                 larcorealg::Geometry
                 nusimdata_SimulationBase
@@ -47,7 +47,7 @@ simple_plugin(Track3DKalmanSPS "module"
 simple_plugin(KalmanFilterFitTrackMaker "tool"
                 canvas::canvas
                 lardataobj::RecoBase
-                larreco_RecoAlg
+                larreco::RecoAlg
               )
 
 install_headers()

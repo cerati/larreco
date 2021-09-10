@@ -1,4 +1,4 @@
-art_make(LIB_LIBRARIES larreco_RecoAlg_CMTool_CMToolBase)
+art_make(LIB_LIBRARIES larreco::RecoAlg_CMTool_CMToolBase)
 
 install_headers()
 install_fhicl()

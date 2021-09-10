@@ -2,17 +2,17 @@ add_subdirectory(job)
 
 art_make(LIB_LIBRARIES
            lardata::Utilities
-           larreco_Calorimetry
-           larreco_RecoAlg_CMTool_CMToolBase
-           larreco_RecoAlg_CMTool_CMTAlgPriority
-           larreco_RecoAlg_CMTool_CMTAlgMatch
+           larreco::Calorimetry
+           larreco::RecoAlg_CMTool_CMToolBase
+           larreco::RecoAlg_CMTool_CMTAlgPriority
+           larreco::RecoAlg_CMTool_CMTAlgMatch
            art::Framework_Services_Registry
            ROOT::Core
            canvas::canvas
            cetlib_except::cetlib_except
          MODULE_LIBRARIES
-           larreco_MCComp
-           larreco_ShowerFinder_ShowerReco3D
+           larreco::MCComp
+           larreco::ShowerFinder_ShowerReco3D
            art::Framework_Services_Registry
            art_root_io::TFileService_service
            art_root_io::tfile_support

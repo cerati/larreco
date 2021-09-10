@@ -12,7 +12,7 @@ art_make(LIB_LIBRARIES
          MODULE_LIBRARIES
            larreco_HitFinder
            larsim::MCCheater_BackTrackerService_service
-           larreco_RecoAlg
+           larreco::RecoAlg
            lardataobj::RecoBase
            larcorealg::Geometry
            lardata::ArtDataHelper

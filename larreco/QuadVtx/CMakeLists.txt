@@ -7,7 +7,7 @@ art_make(LIB_LIBRARIES
            larcorealg::Geometry
            lardataalg::DetectorInfo
            lardataobj::RecoBase
-           larreco_QuadVtx
+           larreco::QuadVtx
            nusimdata::SimulationBase
            lardata::ArtDataHelper
            art_root_io::TFileService_service

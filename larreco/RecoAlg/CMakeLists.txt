@@ -2,11 +2,11 @@
 art_make(LIB_LIBRARIES
            lardataalg::DetectorInfo
            larcorealg::Geometry
-           larreco_RecoAlg_TCAlg
-           larreco_RecoAlg_PMAlg
-           larreco_RecoAlg_ClusterRecoUtil
-           larreco_RecoAlg_CMTool_CMToolBase
-           larreco_RecoAlg_ImagePatternAlgs_DataProvider
+           larreco::RecoAlg_TCAlg
+           larreco::RecoAlg_PMAlg
+           larreco::RecoAlg_ClusterRecoUtil
+           larreco::RecoAlg_CMTool_CMToolBase
+           larreco::RecoAlg_ImagePatternAlgs_DataProvider
            ROOT::Core
            ROOT::Physics
            ROOT::Matrix

@@ -1,4 +1,4 @@
-art_make(LIB_LIBRARIES larreco_RecoAlg_ClusterRecoUtil)
+art_make(LIB_LIBRARIES larreco::RecoAlg_ClusterRecoUtil)
 
 install_headers()
 install_fhicl()

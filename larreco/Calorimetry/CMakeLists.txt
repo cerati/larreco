@@ -15,7 +15,7 @@ art_make(LIB_LIBRARIES
            ROOT::Physics
          MODULE_LIBRARIES
            larcorealg::Geometry
-           larreco_Calorimetry
+           larreco::Calorimetry
            ROOT::Core
            ROOT::Hist
            ROOT::Physics

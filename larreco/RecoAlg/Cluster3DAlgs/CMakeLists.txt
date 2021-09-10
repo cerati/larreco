@@ -28,7 +28,7 @@ art_make(LIB_LIBRARIES
            fhiclcpp::fhiclcpp
            cetlib::cetlib
            cetlib_except::cetlib_except
-          TOOL_LIBRARIES larreco_RecoAlg_Cluster3DAlgs
+          TOOL_LIBRARIES larreco::RecoAlg_Cluster3DAlgs
         )
 
 install_headers()

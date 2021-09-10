@@ -1,5 +1,5 @@
 art_make(LIB_LIBRARIES
-           larreco_RecoAlg_PMAlg
+           larreco::RecoAlg_PMAlg
            ROOT::Core
            ROOT::Physics
            canvas::canvas

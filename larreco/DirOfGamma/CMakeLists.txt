@@ -1,6 +1,6 @@
 art_make(LIB_LIBRARIES
            larcorealg::Geometry
-           larreco_RecoAlg_PMAlg
+           larreco::RecoAlg_PMAlg
            art::Framework_Services_Registry
            ROOT::Core
            ROOT::Physics
@@ -8,10 +8,10 @@ art_make(LIB_LIBRARIES
            messagefacility::MF_MessageLogger
            cetlib_except::cetlib_except
          MODULE_LIBRARIES
-           larreco_RecoAlg
-           larreco_RecoAlg_PMAlg
-           larreco_Calorimetry
-           larreco_DirOfGamma
+           larreco::RecoAlg
+           larreco::RecoAlg_PMAlg
+           larreco::Calorimetry
+           larreco::DirOfGamma
            art::Framework_Services_Registry
            ROOT::Core
            ROOT::Physics
