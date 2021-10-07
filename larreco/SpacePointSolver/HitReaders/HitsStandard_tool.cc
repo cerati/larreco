@@ -16,7 +16,7 @@
 // std includes
 #include <ostream>
 #include <vector>
-
+#include <cmath>
 //------------------------------------------------------------------------------------------------------------------------------------------
 // implementation follows
 
@@ -82,7 +82,7 @@ bool HitsStandard::readHits(const std::vector<art::Ptr<recob::Hit>>& inputHits, 
 
     for(auto& hit: inputHits)
     {
-        if(hit->Integral() < 0 || isnan(hit->Integral()) || isinf(hit->Integral()))
+        if(hit->Integral() < 0 || std::isnan(hit->Integral()) || std::isinf(hit->Integral()))
         {
             mf::LogWarning("HitsStandard") << "WARNING: bad recob::Hit::Integral() = "
             << hit->Integral()
