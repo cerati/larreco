@@ -301,8 +301,12 @@ void GausHitFinder::produce(art::Event& evt)
         // #################################################
         const recob::Wire::RegionsOfInterest_t& signalROI = wire->SignalROI();
 
-        for(const auto& range : signalROI.get_ranges())
-        {
+        // for(const auto& range : signalROI.get_ranges())
+        // {
+	tbb::parallel_for(static_cast<std::size_t>(0),signalROI.n_ranges(),
+                         [&](size_t& rangeIter){
+            const auto& range = signalROI.range(rangeIter);
+
             // ROI start time
             raw::TDCtick_t roiFirstBinTick = range.begin_index();
 
@@ -532,6 +536,7 @@ void GausHitFinder::produce(art::Event& evt)
 	    }//<---End loop over merged candidate hits
 
         } //<---End looping over ROI's
+      );//end tbb parallel for
 
      }//<---End looping over all the wires
     );//end tbb parallel for
