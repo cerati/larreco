@@ -7,6 +7,7 @@ set( hitfinder_tool_lib_list
                         larcore::Geometry_Geometry_service
                         lardata::Utilities
                         nurandom::RandomUtils_NuRandomService_service
+                        larvecutils::MarqFitAlg
                         art::Framework_Core
                         art::Framework_Principal
                         art::Framework_Services_Registry
